@@ -1,85 +1,112 @@
 body{
-  display:contents
+  display: contents;
 }
 
-.navbar {
-  float:right;
-  margin: 20px;
+.navbar{
+  float: right;
+  border: 1px solid red;
+  margin-top: 30px; 
+  margin-right: 30px;
 }
 
-.nav-item{
-  text-decoration: none;
+.navitem{
+  text-decoration:none;
   color: black;
-  margin: 15px;
+  margin: 10px;
+  font-size: 15px;
 }
 
-.nav-item:hover {
+.navitem:Hover{
   text-decoration: underline;
 }
 
-.main {
-  margin-top:300px;
-  text-align:center;
+.main-location{
+  margin-top: 300px;
+  text-align: center;
 }
 
-.input-area {
-  margin-top:20px
+.input-area{
+  margin-top:20px;
 }
 
-.input-box {
-  width : 561px;
-  height : 44px;
-  border-radius : 24px;
+.input-shape{
+  width:542px;
+  height:44px;
+  background: #fff;
   border: 1px solid #dfe1e5;
-  padding-inline-start: 52px;
-  padding-inline-end: 52px;
+  box-shadow: none;
+  border-radius: 24px;
+  padding-left: 40px;
+  padding-right: 80px;
+
 }
 
 .search-icon{
-  position:relative;
+  position: relative;
   left:40px;
-  color: #5F6368;
+  top:3px;
+  color: #9aa0a6;
 }
 
 .mic-icon{
-  position:relative;
-  right:40px;
-  color: #5F6368;  
+  position: relative;
+  right:80px;
+  top:3px;
+  color: #9aa0a6;
+}
+
+.camera-icon{
+  position: relative;
+  right:60px;
+  top:3px;
+  color: #9aa0a6;
 }
 
 .button-area{
-  padding-top: 18px;
+  padding-top:20px
 }
 
 .button-style{
-  height:36px;
-  background-color: #f8f9fa;
-  border: 1px solid #f8f9fa;
-  border-radius : 4px;
-  font-size : 14px;
-  padding:0 16px;
-  margin: 11px 4px;
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
 }
 
-.button-style:hover{
+.button-style:hover {
   box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
   background-color: #f8f9fa;
-  border : 1px solid #dadce0;
-  color : #202124;
+  border: 1px solid #dadce0;
+  color: #202124;
 }
 
-.offer-item{
+.offered-area{
+  padding-top:20px;
+}
+
+.offered-style{
   text-decoration: none;
-  margin: 5px;
+  margin: 10px;
 }
 
-.offer-item:hover {
+.offered:Hover{
   text-decoration: underline;
+}
+
+.offered-font{
+  font-size: 11px;
 }
 
 .footer{
   position: absolute;
-  bottom: 0px;
+  bottom:0px;
   background-color: #f2f2f2;
   width:100%
 }
@@ -88,25 +115,23 @@ body{
   padding: 15px 30px;
   border-bottom: 1px solid #dadce0;
   font-size: 15px;
-  color: rgba(0,0,0,.54);
+  color: #70757a;
+}
+
+.second-line-right{
+  float:right;
 }
 
 .second-line{
   padding: 15px 30px;
-  font-size: 15px;
-  color: rgba(0,0,0,.54);
+  font-size: 13px;
 }
 
-.second-line-second{
-  float:right;
+.secocnd-line-too {
+  text-decoration:none;
+  color: #70757a;  
 }
 
-.second-line-font{
-  text-decoration: none;
-  color: rgba(0,0,0,.54);
-  margin: 5px
-}
-
-.second-line-font:hover {
-  text-decoration : underline;
+.secocnd-line-too:Hover{
+  text-decoration: underline;
 }
